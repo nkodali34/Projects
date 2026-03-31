@@ -1,0 +1,6 @@
+Timing Report
+Path 1: slack = -0.8 ns VIOLATED
+Path 2: slack =  0.3 ns MET
+Path 3: slack = -0.2 ns VIOLATED
+Path 4: slack =  0.5 ns MET
+Path 5: slack =  0.1 ns MET
