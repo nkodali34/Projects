@@ -29,3 +29,11 @@ puts $slack
 set def "COMP AND2 ( 1000 2000 )"
 regexp {\(\s*(\d+)\s+(\d+)\s*\)} $def match x y
 puts "$x $y"
+
+puts "Uppercase : [string toupper $line]"
+puts "Lowercase : [string tolower $line]"
+
+set line "Path 1 slack=-0.8ns VIOLATED"
+set newline [string map {VIOLATED FAILING} $line]
+puts "Original : $line"
+puts "Modified : $newline"
