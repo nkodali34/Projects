@@ -1,0 +1,31 @@
+=======================================
+Timing Report - MyChip
+=======================================
+Operating Condition: slow
+Corner: ss_0p72v_125c
+
+Path 1 (VIOLATED)
+  Startpoint: FF1/Q
+  Endpoint  : FF2/D
+  slack     : -0.85 ns
+
+Path 2 (MET)
+  Startpoint: FF3/Q
+  Endpoint  : FF4/D
+  slack     :  0.32 ns
+
+Path 3 (VIOLATED)
+  Startpoint: FF5/Q
+  Endpoint  : FF6/D
+  slack     : -0.12 ns
+
+Path 4 (MET)
+  Startpoint: FF7/Q
+  Endpoint  : FF8/D
+  slack     :  0.56 ns
+
+Path 5 (MET)
+  Startpoint: FF9/Q
+  Endpoint  : FF10/D
+  slack     :  0.91 ns
+=======================================

@@ -1,0 +1,18 @@
+DESIGN MyChip ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 5000000 4000000 ) ;
+
+COMPONENTS 5 ;
+- U1 AND2 + PLACED ( 1000 2000 ) N ;
+- U2 OR2 + PLACED ( 3000 4000 ) N ;
+- U3 DFF + PLACED ( 5000 1000 ) N ;
+- U4 AND2 + PLACED ( 2000 3000 ) S ;
+- U5 INV + PLACED ( 4000 2000 ) N ;
+END COMPONENTS
+
+NETS 3 ;
+- clk ( U3 CLK ) ;
+- data_in ( U1 A ) ( U2 A ) ;
+- data_out ( U3 Q ) ( U1 Y ) ;
+END NETS
